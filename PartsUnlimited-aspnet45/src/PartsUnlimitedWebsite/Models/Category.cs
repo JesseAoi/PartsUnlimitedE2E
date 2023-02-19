@@ -3,9 +3,9 @@ using System.ComponentModel.DataAnnotations;
 
 namespace PartsUnlimited.Models
 {
+    // Category model with properties
     public class Category
     {
-        // This is a model with properties
         public int CategoryId { get; set; }
 
         [Required]
